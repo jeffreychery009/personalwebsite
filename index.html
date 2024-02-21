@@ -36,6 +36,42 @@
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./Images/Untitled design.png"
+          alt="Jeffrey Chery profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jeffrey Chery</h1>
+        <p class="section__text__p2">FrontEnd Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('.')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Download CV
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./Images/linkedin-square-logo-240.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="loadProfilePage()"
+          />
+          <img
+            src="./Images/github-logo-240.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="loadGithubPage()"
+          />
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
