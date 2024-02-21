@@ -267,3 +267,59 @@ section {
   background: none;
   border-color: black;
 }
+
+/* ABOUT SECTION */
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2.5rem;
+  margin: 2rem 0;
+}
+
+.abouut-details-containter {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-containter,
+.about-me-text-container {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+.about-pic {
+  border-radius: 2rem;
+  width: 590px;
+  height: 850px;
+  position: relative;
+  bottom: 100px;
+}
+
+.arrow {
+  position: absolute;
+  right: -6rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(52, 52, 52) 0.2rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 3rem;
+  height: 81%;
+}
+
+.section__pic-container {
+  margin: auto 0;
+}
